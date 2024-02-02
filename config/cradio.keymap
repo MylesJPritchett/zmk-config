@@ -133,17 +133,17 @@
 
         default_layer {
             bindings = <
-&kp Q           &kp W           &kp F               &kp P             &kp B        &kp J        &kp L              &kp U        &kp Y            &kp SEMICOLON
-&mt LEFT_GUI A  &mt LEFT_ALT R  &mt LEFT_CONTROL S  &mt LEFT_SHIFT T  &kp G        &kp M        &mt RIGHT_SHIFT N  &mt RCTRL E  &mt RIGHT_ALT I  &mt RIGHT_GUI O
-&kp Z           &kp X           &kp C               &kp D             &kp V        &kp K        &kp H              &kp COMMA    &kp DOT          &kp FSLH
-                                                    &lt 4 TAB         &kp SPACE    &lt 3 ENTER  &kp BACKSPACE
+&kp Q           &kp W           &kp F               &kp P             &kp B          &kp J        &kp L              &kp U        &kp Y            &kp SEMICOLON
+&mt LEFT_GUI A  &mt LEFT_ALT R  &mt LEFT_CONTROL S  &mt LEFT_SHIFT T  &kp G          &kp M        &mt RIGHT_SHIFT N  &mt RCTRL E  &mt RIGHT_ALT I  &mt RIGHT_GUI O
+&kp Z           &kp X           &kp C               &kp D             &kp V          &kp K        &kp H              &kp COMMA    &kp DOT          &kp FSLH
+                                                    &lt 4 TAB         &lt 1 SPACE    &lt 3 ENTER  &kp BACKSPACE
             >;
         };
 
         nav_layer {
             bindings = <
 &bt BT_CLR    &trans  &trans  &bootloader  &sys_reset    &trans    &kp LBRC  &kp RBRC  &kp LPAR   &kp RPAR
-&bt BT_SEL 0  &trans  &trans  &trans       &trans        &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &trans
+&bt BT_SEL 0  &trans  &trans  &trans       &trans        &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &kp DELETE
 &bt BT_SEL 1  &trans  &trans  &trans       &trans        &trans    &kp LBKT  &kp RBKT  &trans     &trans
                               &trans       &trans        &trans    &kp BSPC
             >;
@@ -151,28 +151,28 @@
 
         fun_layer {
             bindings = <
-&trans     &kp F7  &kp F8  &kp F9  &trans       &trans  &trans  &trans  &trans  &trans
-&kp SQT    &kp F4  &kp F5  &kp F6  &kp EQUAL    &trans  &trans  &trans  &trans  &trans
-&kp GRAVE  &kp F1  &kp F2  &kp F3  &kp BSLH     &trans  &trans  &trans  &trans  &trans
-                           &trans  &trans       &trans  &trans
+&kp F1   &kp F2   &kp F3   &kp F4   &kp F5     &trans  &trans  &trans  &trans  &trans
+&kp F6   &kp F7   &kp F8   &kp F9   &kp F10    &trans  &trans  &trans  &trans  &trans
+&kp F11  &kp F12  &kp F13  &kp F14  &kp F15    &trans  &trans  &trans  &trans  &trans
+                           &trans   &trans     &trans  &trans
             >;
         };
 
         sym_layer {
             bindings = <
-&kp LS(Q)  &kp LS(Z)  &kp STAR   &kp AMPS  &trans         &sys_reset  &bootloader  &trans  &trans  &trans
-&kp DQT    &kp CARET  &kp PRCNT  &kp DLLR  &kp KP_PLUS    &trans      &trans       &trans  &trans  &trans
-&kp TILDE  &kp HASH   &kp AT     &kp EXCL  &kp PIPE       &trans      &trans       &trans  &trans  &trans
-                                 &kp LPAR  &kp RPAR       &trans      &trans
+&kp DOUBLE_QUOTES  &kp GRAVE  &kp STAR   &kp AMPS  &trans      &sys_reset  &bootloader  &trans  &trans  &trans
+&kp APOS           &kp CARET  &kp PRCNT  &kp DLLR  &kp PLUS    &trans      &trans       &trans  &trans  &trans
+&kp TILDE          &kp HASH   &kp AT     &kp EXCL  &kp PIPE    &trans      &trans       &trans  &trans  &trans
+                                         &kp LPAR  &kp RPAR    &trans      &trans
             >;
         };
 
         num_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans         &trans    &kp N7  &kp N8  &kp N9  &trans
-&trans  &trans  &trans  &trans  &trans         &kp BSPC  &kp N4  &kp N5  &kp N6  &trans
-&trans  &trans  &trans  &trans  &trans         &trans    &kp N1  &kp N2  &kp N3  &trans
-                        &trans  &lt 2 SPACE    &trans    &kp N0
+&trans  &trans  &trans  &trans  &trans    &trans    &kp N7  &kp N8  &kp N9  &mo 2
+&trans  &trans  &trans  &trans  &trans    &kp BSPC  &kp N4  &kp N5  &kp N6  &trans
+&trans  &trans  &trans  &trans  &trans    &mo 2     &kp N1  &kp N2  &kp N3  &trans
+                        &trans  &trans    &trans    &kp N0
             >;
         };
     };
