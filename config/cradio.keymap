@@ -126,6 +126,11 @@
             key-positions = <0 1>;
             bindings = <&out OUT_BLE>;
         };
+
+        gaming_layer {
+            bindings = <&tog 5>;
+            key-positions = <0 9 4 5>;
+        };
     };
 
     keymap {
@@ -173,6 +178,15 @@
 &trans  &trans  &trans  &trans  &trans    &kp BSPC  &kp N4  &kp N5  &kp N6  &trans
 &trans  &trans  &trans  &trans  &trans    &mo 2     &kp N1  &kp N2  &kp N3  &trans
                         &trans  &trans    &trans    &kp N0
+            >;
+        };
+
+        gaming_layer {
+            bindings = <
+&kp Q  &kp W  &kp E  &kp R           &kp T        &kp Y              &kp U          &kp I      &kp O       &kp P
+&kp A  &kp S  &kp D  &kp F           &kp G        &kp H              &kp J          &kp K      &kp L       &kp SEMICOLON
+&kp Z  &kp X  &kp C  &kp V           &kp B        &kp N              &kp M          &kp COMMA  &kp PERIOD  &kp SLASH
+                     &kp LEFT_SHIFT  &kp SPACE    &kp RIGHT_CONTROL  &kp RIGHT_ALT
             >;
         };
     };
