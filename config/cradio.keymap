@@ -155,7 +155,7 @@
 &kp Q           &kp W           &kp F               &kp P             &kp B          &kp J        &kp L              &kp U        &kp Y            &kp SEMICOLON
 &mt LEFT_GUI A  &mt LEFT_ALT R  &mt LEFT_CONTROL S  &mt LEFT_SHIFT T  &kp G          &kp M        &mt RIGHT_SHIFT N  &mt RCTRL E  &mt RIGHT_ALT I  &mt RIGHT_GUI O
 &kp Z           &kp X           &kp C               &kp D             &kp V          &kp K        &kp H              &kp COMMA    &kp DOT          &kp FSLH
-                                                    &lt 4 TAB         &lt 1 SPACE    &lt 3 ENTER  &kp LC(BACKSPACE)
+                                                    &lt 4 TAB         &lt 1 SPACE    &lt 3 ENTER  &kp BACKSPACE
             >;
         };
 
