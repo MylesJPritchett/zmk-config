@@ -139,12 +139,12 @@
         };
 
         bluetooth-left {
-            bindings = <&tog 6>;
+            bindings = <&sl 6>;
             key-positions = <0 4 31>;
         };
 
         bluetooth-right {
-            bindings = <&tog 6>;
+            bindings = <&sl 6>;
             key-positions = <32 5 9>;
         };
     };
@@ -210,7 +210,7 @@
             bindings = <
 &trans  &bootloader  &bt BT_CLR_ALL  &sys_reset  &trans    &trans  &sys_reset  &bt BT_CLR_ALL  &bootloader  &trans
 &trans  &bt BT_PRV   &bt BT_CLR      &bt BT_NXT  &trans    &trans  &bt BT_NXT  &bt BT_CLR      &bt BT_PRV   &trans
-&trans  &trans       &trans          &trans      &trans    &trans  &trans      &trans          &trans       &trans
+&to 0   &trans       &trans          &trans      &trans    &trans  &trans      &trans          &trans       &to 0
                                      &trans      &trans    &trans  &trans
             >;
         };
